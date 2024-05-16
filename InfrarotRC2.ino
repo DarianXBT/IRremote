@@ -1,13 +1,3 @@
-/**
-* Auswertung einer Infrarot-Fernsteuerung (Remote Control):
-* - Decodierung der gedrückten Ziffern-Taste begonnen
-* - Ignorieren von Repeat-Commands
-*
-* Bibliothek IRremote ab Version 3.6.1 (z.B. 4.3.1)
-*
-* Siehe Arbeitsheft 'Arduino Lernen' Kap. 4.13
-*/
-
 #include <IRremote.hpp>
 
 #define RECV_PIN 11
